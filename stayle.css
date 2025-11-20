@@ -52,7 +52,7 @@ nav{
 .nav-links{
     flex: 1;
     text-align: right;
-    display: none;
+ 
 }
 .nav-links ul li{
     list-style: none;
