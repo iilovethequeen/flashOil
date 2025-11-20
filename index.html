@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flash Oil</title>
+  <link rel="stylesheet" href="stayle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <header>
+        <img src="WhatsApp_Image_2025-11-11_at_17.01.16-removebg-preview.png" alt="My Website Logo" id="logo">
+      </header>
+
+
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services2.html">Services</a></li>
+          <li><a href="contact_page_html_css_js.html">contact us</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Flash Oil</h1>
+      <p>
+        Flash Oil is a leading energy company committed to powering progress through innovation, sustainability,
+        and global expertise in the oil and gas sector.
+      </p>
+    </div>
+  </section>
+
+  <!------ About Us ------->
+  <section class="course">
+    <h1>About Us</h1>
+    <p>
+      We are Flash Oil, an Oil Service company that has originated in Libya, taking its headquarters in its capital
+      Tripoli, the company was founded in April-2024 with partnership contract with experienced Oil and Gas Sector
+      Engineers, the company strives to provide high quality equipment and services to the local and International
+      Companies, adhering to the highest industry standards.
+    </p>
+    <div class="row">
+      <div class="coures-col">
+        <h3>Mission</h3>
+        <p>
+          To deliver high-quality energy resources that power industries and communities worldwide,
+          while ensuring safety, efficiency, and environmental responsibility in everything we do.
+        </p>
+      </div>
+      <div class="coures-col">
+        <h3>Vision</h3>
+        <p>
+          To be a global leader in energy innovation — integrating traditional oil and gas excellence
+          with renewable technologies to shape the energy systems of tomorrow.
+        </p>
+      </div>
+      <div class="coures-col">
+        <h3>Leadership & History</h3>
+        <p>
+          Founded with a passion for progress, Flash Oil has grown from a regional operator into
+          a multinational energy group. Guided by a team of seasoned industry leaders, our company
+          continues to pioneer advancements in exploration and production efficiency.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!------ Industries / Segments ------->
+  <section class="campus">
+    <h1>Industries & Segments</h1>
+    <p>
+      Flash Oil serves multiple sectors across the global energy landscape, offering specialized expertise
+      and tailored solutions to meet each market’s needs.
+    </p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="flame-2720980_640.jpg" />
+        <div class="layer">
+          <h3>Oil & Gas</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="istockphoto-493760870-612x612.jpg"  width="100%"/>
+        <div class="layer">
+          <h3>Renewables</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="mediabasso170400081.jpg" width="100%" />
+        <div class="layer">
+          <h3>Energy Transition</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---- Solutions --------->
+  <section class="facilities">
+    <h1>Solutions</h1>
+    <p>
+      Our integrated portfolio addresses the world’s most complex energy challenges through advanced technology
+      and deep industry insight.
+    </p>
+    <p>Key focus areas include:</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="mediabasso170400081.jpg" alt="" />
+        <h3>Deepwater Exploration</h3>
+        <p>
+          Utilizing state-of-the-art offshore technology to unlock energy potential in the world’s deepest waters.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="stock-photo-oil-extraction.webp" alt="" />
+        <h3>Shale & Unconventionals</h3>
+        <p>
+          Innovative extraction and processing solutions that maximize resource efficiency and minimize environmental
+          impact.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="istockphoto-493760870-612x612.jpg" alt="" />
+        <h3>Carbon Capture</h3>
+        <p>
+          Pioneering carbon management systems that support our long-term goal of achieving net-zero emissions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--- Investors ---->
+  <section class="gie">
+    <h1>Services</h1>
+    <p>
+      Transparency and trust are the pillars of Flash Oil’s relationship with our investors.
+      We regularly publish financial reports, investor presentations, and governance updates to ensure
+      stakeholders remain informed and confident in our strategic direction.
+    </p>
+    <a href="services2.html" class="hero-btn">View Reports</a>
+  </section>
+
+  <!----- Footer ----->
+   <div style="text-align:center; color:var(--muted); margin-top:18px; font-size:13px">© <span id="year"></span>
+            Your
+            Company · Built with ❤️</div>
+
+  <!------JavaScript for Toggle Menu------->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
