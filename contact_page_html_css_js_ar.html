@@ -7,127 +7,188 @@
     <title>فلاش أويل - اتصل بنا</title>
 
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" />
 </head>
 
 <body>
-<!-- Language Switch Button -->
-<div id="lang-btn-box" style="position: fixed; top: 10px; left: 10px; z-index: 9999;">
-    <button onclick="switchLang()" style="padding:6px 12px; font-size:14px; border:none; background:#fff; cursor:pointer; border-radius:5px;">EN</button>
-</div>
-
-<script>
-    function switchLang() {
-        window.location.href = "contact_page_html_css_js.html";
-    }
-</script>
-
-<nav>
-    <a href="index_ar.html" style="color:#fff; font-size:24px; font-weight:600; text-decoration:none;">
-        <img id="logo-img" src="imgs/WhatsApp_Image_2025-11-11_at_17.01.16-removebg-preview.png" alt="شعار فلاش أويل">
-    </a>
-
-    <div class="nav-links" id="navlinks">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
-        <ul>
-            <li><a href="index_ar.html">الرئيسية</a></li>
-            <li><a href="services2_ar.html">الخدمات</a></li>
-            <li><a href="contact_page_html_css_js_ar.html">اتصل بنا</a></li>
-        </ul>
+    <!-- Language Switch Button -->
+    <div id="lang-btn-box" style="position: fixed; top: 10px; left: 10px; z-index: 9999;">
+        <button onclick="switchLang()"
+            style="padding:6px 12px; font-size:14px; border:none; background:#fff; cursor:pointer; border-radius:5px;">EN</button>
     </div>
 
-    <i class="fa fa-bars" onclick="showMenu()"></i>
-</nav>
+    <script>
+        function switchLang() {
+            window.location.href = "contact_page_html_css_js.html";
+        }
+    </script>
 
-<div class="wrap">
-    <div class="grid">
-        <div class="card contact-info">
-            <h1>اتصل بنا</h1>
-            <p class="lead">يسعدنا سماعكم. أرسل رسالة للتعاون، الاستفسارات، أو لإلقاء التحية.</p>
+    <nav>
+        <a href="index_ar.html" style="color:#fff; font-size:24px; font-weight:600; text-decoration:none;">
+            <img id="logo-img" src="imgs/WhatsApp_Image_2025-11-11_at_17.01.16-removebg-preview.png"
+                alt="شعار فلاش أويل">
+        </a>
 
-            <div class="info-list">
-                <div class="info-item">
-                    <div class="icon">📧</div>
-                    <div class="meta"><b>البريد الإلكتروني</b><span class="small">info@flashoil.ly</span></div>
-                </div>
-
-                <div class="info-item">
-                    <div class="icon">📞</div>
-                    <div class="meta"><b>الهاتف</b><span class="small">+218 93-0048373</span></div>
-                </div>
-
-                <div class="info-item">
-                    <div class="icon">📍</div>
-                    <div class="meta"><b>الموقع</b><span class="small">
-                        <li><a href="https://maps.app.goo.gl/qLoRk7tjr4baVz1a8?g_st=com.google.maps.preview.copy" class="map-color">V6P6+JJM، طرابلس، ليبيا</a></li>
-                    </span></div>
-                </div>
-
-                <div style="margin-top:8px;">
-                    <p class="note">هل تفضل الرسائل المباشرة؟ استخدم النموذج — سنرد خلال 1–2 يوم عمل.</p>
-                </div>
-            </div>
-
-            <div class="map" aria-hidden="true">
-                <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15328.6015569477!2d13.16912385!3d32.88452395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13988e7b1c3e3871%3A0x67c293c6e4e54e4!2z2KjZiNin2K0g2KfZhNiy2YQg2LHYsdin2Kgg2YXZhtin2LHYqNip!5e0!3m2!1sar!2sly!4v1704283857640!5m2!1sar!2sly"></iframe>
-            </div>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index_ar.html">الرئيسية</a></li>
+                <li><a href="services2_ar.html">الخدمات</a></li>
+                <li><a href="contact_page_html_css_js_ar.html">اتصل بنا</a></li>
+            </ul>
         </div>
 
-        <div class="card">
-            <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                <div class="row">
-                    <div class="col">
-                        <label for="name">الاسم *</label>
-                        <input id="name" name="name" type="text" required placeholder="اسمك الكامل" />
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="wrap">
+        <div class="grid">
+            <div class="card contact-info">
+                <h1>اتصل بنا</h1>
+                <p class="lead">يسعدنا سماعكم. أرسل رسالة للتعاون، الاستفسارات، أو لإلقاء التحية.</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <div class="icon">📧</div>
+                        <div class="meta"><b>البريد الإلكتروني</b><span class="small">info@flashoil.ly</span></div>
                     </div>
-                    <div class="col">
-                        <label for="email">البريد الإلكتروني *</label>
-                        <input id="email" name="email" type="email" required placeholder="you@domain.com" />
+
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <div class="meta"><b>الهاتف</b><span class="small">+218 93-0048373</span></div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <div class="meta"><b>الموقع</b><span class="small">
+                                <li><a href="https://maps.app.goo.gl/qLoRk7tjr4baVz1a8?g_st=com.google.maps.preview.copy"
+                                        class="map-color">V6P6+JJM، طرابلس، ليبيا</a></li>
+                            </span></div>
+                    </div>
+
+                    <div style="margin-top:8px;">
+                        <p class="note">هل تفضل الرسائل المباشرة؟ استخدم النموذج — سنرد خلال 1–2 يوم عمل.</p>
                     </div>
                 </div>
 
-                <label for="subject">الموضوع</label>
-                <input id="subject" name="subject" type="text" placeholder="ملخص قصير" />
-
-                <label for="message">الرسالة *</label>
-                <textarea id="message" name="message" required placeholder="اكتب ما يدور في ذهنك..."></textarea>
-
-                <div style="display:flex; align-items:center; gap:10px; margin-top:6px">
-                    <input type="checkbox" id="consent" required />
-                    <label for="consent" class="small">أوافق على أن يتم الرد على هذه الرسالة.</label>
+                <div class="map" aria-hidden="true">
+                    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15328.6015569477!2d13.16912385!3d32.88452395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13988e7b1c3e3871%3A0x67c293c6e4e54e4!2z2KjZiNin2K0g2KfZhNiy2YQg2LHYsdin2Kgg2YXZhtin2LHYqNip!5e0!3m2!1sar!2sly!4v1704283857640!5m2!1sar!2sly"></iframe>
                 </div>
+            </div>
 
-                <div class="actions">
-                    <button class="primary" type="submit">إرسال الرسالة</button>
-                    <button class="ghost" type="reset">إعادة ضبط</button>
-                    <div style="margin-left:auto" class="small">جميع الحقول الموسومة بـ * إلزامية</div>
-                </div>
-            </form>
+            <div class="card">
+                <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <div class="row">
+                        <div class="col">
+                            <label for="name">الاسم *</label>
+                            <input id="name" name="name" type="text" required placeholder="اسمك الكامل" />
+                        </div>
+                        <div class="col">
+                            <label for="email">البريد الإلكتروني *</label>
+                            <input id="email" name="email" type="email" required placeholder="you@domain.com" />
+                        </div>
+                    </div>
+
+                    <label for="subject">الموضوع</label>
+                    <input id="subject" name="subject" type="text" placeholder="ملخص قصير" />
+
+                    <label for="message">الرسالة *</label>
+                    <textarea id="message" name="message" required placeholder="اكتب ما يدور في ذهنك..."></textarea>
+
+                    <div style="display:flex; align-items:center; gap:10px; margin-top:6px">
+                        <input type="checkbox" id="consent" required />
+                        <label for="consent" class="small">أوافق على أن يتم الرد على هذه الرسالة.</label>
+                    </div>
+
+                    <div class="actions">
+                        <button class="primary" type="submit">إرسال الرسالة</button>
+                        <button class="ghost" type="reset">إعادة ضبط</button>
+                        <div style="margin-left:auto" class="small">جميع الحقول الموسومة بـ * إلزامية</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div style="text-align:center; color:var(--muted); margin-top:18px; font-size:13px">
+            © <span id="year"></span> 2025 فلاش أويل
+            استكشاف النفط والغاز • خدمات الطاقة • حلول هندسية
         </div>
     </div>
 
-    <div style="text-align:center; color:var(--muted); margin-top:18px; font-size:13px">
-        © <span id="year"></span> 2025 فلاش أويل  
-        استكشاف النفط والغاز • خدمات الطاقة • حلول هندسية
-    </div>
-</div>
+    <div id="toast" class="toast" role="status" aria-live="polite">تم إرسال الرسالة — سنرد قريباً.</div>
 
-<div id="toast" class="toast" role="status" aria-live="polite">تم إرسال الرسالة — سنرد قريباً.</div>
+    <script>
+        var navLinks = document.getElementById("navlinks");
 
-<script>
-    var navLinks = document.getElementById("navlinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
 
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
+        const year = document.getElementById('year');
+        year.textContent = new Date().getFullYear();
 
-    const year = document.getElementById('year');
-    year.textContent = new Date().getFullYear();
-</script>
+        /////////
+
+        function validateForm(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+            const extra = document.getElementById("extra").value.trim(); // honeypot
+            const feedback = document.getElementById("formMessage");
+
+            feedback.style.display = "none";
+            feedback.className = "form-message";
+
+            if (extra !== "") {
+                feedback.textContent = "Spam detected.";
+                feedback.classList.add("error");
+                feedback.style.display = "block";
+                return false;
+            }
+
+            if (name === "" || email === "" || message === "") {
+                feedback.textContent = "Please fill in all required fields.";
+                feedback.classList.add("error");
+                feedback.style.display = "block";
+                return false;
+            }
+
+            // Submit to Formspree
+            fetch(event.target.action, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name, email, message }),
+            })
+                .then((res) => {
+                    if (res.ok) {
+                        feedback.textContent = "✅ Message sent successfully! We'll get back to you soon.";
+                        feedback.classList.add("success");
+                        feedback.style.display = "block";
+                        document.getElementById("contactForm").reset();
+                    } else {
+                        feedback.textContent = "❌ Something went wrong. Please try again later.";
+                        feedback.classList.add("error");
+                        feedback.style.display = "block";
+                    }
+                })
+                .catch(() => {
+                    feedback.textContent = "⚠️ Network error. Please check your connection.";
+                    feedback.classList.add("error");
+                    feedback.style.display = "block";
+                });
+
+            return false;
+        }
+    </script>
 
 </body>
+
 </html>
