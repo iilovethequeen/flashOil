@@ -52,7 +52,7 @@ nav{
 .nav-links{
     flex: 1;
     text-align: right;
-    display: none;
+    
 }
 .nav-links ul li{
     list-style: none;
@@ -124,11 +124,10 @@ nav .fa{
     font-size: 15px;
 }
      .nav-links ul li{
-       
-         display: block;
+       display: block;
+        
      }
      .nav-links{
-        
         position: absolute;
         background: #41708f;
         height: 100vh;

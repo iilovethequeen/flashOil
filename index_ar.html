@@ -11,175 +11,176 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 </head>
+
+
 
 <body>
 
-<!-- Language Switch Button -->
-<div id="lang-btn-box" style="
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 9999;
-">
-  <button onclick="switchLang()" style="
-    padding: 6px 12px;
-    font-size: 14px;
-    border: none;
-    background: #e0891771;
-    cursor: pointer;
-    border-radius: 5px;
-  ">EN</button>
-</div>
+  <!-- Language Switch Button -->
+  <div id="lang-btn-box" style="position: fixed; top: 10px; left: 10px; z-index: 9999;">
+    <button onclick="switchLang()"
+      style="padding:6px 12px; font-size:14px; border:none; background:#fff; cursor:pointer; border-radius:5px;">EN</button>
+  </div>
 
-<script>
-  //the translion botton 
-  function switchLang() {
-    // Go back to English version
-    window.location.href = "index.html";
-  }
-</script>
-<section class="header">
-  <nav>
-    <header>
-      <img src="imgs/WhatsApp_Image_2025-11-11_at_17.01.16-removebg-preview.png" alt="شعار الموقع" id="logo">
-    </header>
+  <script>
+    //the translion botton 
+    function switchLang() {
+      // Go back to English version
+      window.location.href = "index.html";
+    }
+  </script>
+  <section class="header">
+    <nav>
+      <header>
+        <img src="imgs/WhatsApp_Image_2025-11-11_at_17.01.16-removebg-preview.png" alt="شعار الموقع" id="logo">
+      </header>
 
-    <div class="nav-links" id="navlinks">
-      <i class="fa fa-times" onclick="hideMenu()"></i>
-      <ul>
-        <li><a href="index_ar.html">الرئيسية</a></li>
-        <li><a href="services2_ar.html">الخدمات</a></li>
-        <li><a href="contact_page_html_css_js_ar.html">اتصل بنا</a></li>
-      </ul>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index_ar.html">الرئيسية</a></li>
+          <li><a href="services2_ar.html">الخدمات</a></li>
+          <li><a href="contact_page_html_css_js_ar.html">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>فلاش أويل</h1>
+      <p>
+        فلاش أويل هي شركة رائدة في مجال الطاقة ملتزمة بدفع التقدم من خلال الابتكار والاستدامة والخبرة العالمية في قطاع
+        النفط والغاز.
+      </p>
     </div>
-    <i class="fa fa-bars" onclick="showMenu()"></i>
-  </nav>
-  <div class="text-box">
-    <h1>فلاش أويل</h1>
+  </section>
+
+  <!------ عن الشركة ------>
+  <section class="course">
+    <h1>من نحن</h1>
     <p>
-      فلاش أويل هي شركة رائدة في مجال الطاقة ملتزمة بدفع التقدم من خلال الابتكار والاستدامة والخبرة العالمية في قطاع النفط والغاز.
+      نحن شركة فلاش أويل لخدمات النفط، تأسست في ليبيا ومقرها الرئيسي في العاصمة طرابلس. تأسست الشركة في أبريل 2024
+      بشراكة مع مهندسين ذوي خبرة في قطاع النفط والغاز، وتسعى لتقديم معدات وخدمات عالية الجودة للشركات المحلية والدولية،
+      مع الالتزام بأعلى معايير الصناعة.
     </p>
-  </div>
-</section>
-
-<!------ عن الشركة ------>
-<section class="course">
-  <h1>من نحن</h1>
-  <p>
-    نحن شركة فلاش أويل لخدمات النفط، تأسست في ليبيا ومقرها الرئيسي في العاصمة طرابلس. تأسست الشركة في أبريل 2024 بشراكة مع مهندسين ذوي خبرة في قطاع النفط والغاز، وتسعى لتقديم معدات وخدمات عالية الجودة للشركات المحلية والدولية، مع الالتزام بأعلى معايير الصناعة.
-  </p>
-  <div class="row">
-    <div class="coures-col">
-      <h3>المهمة</h3>
-      <p>
-        تقديم موارد طاقة عالية الجودة تُغذي الصناعات والمجتمعات حول العالم، مع ضمان السلامة والكفاءة والمسؤولية البيئية في كل ما نقوم به.
-      </p>
-    </div>
-    <div class="coures-col">
-      <h3>الرؤية</h3>
-      <p>
-        أن نكون رائدين عالميًا في ابتكار الطاقة — دمج التميز التقليدي في النفط والغاز مع التقنيات المتجددة لتشكيل أنظمة الطاقة المستقبلية.
-      </p>
-    </div>
-    <div class="coures-col">
-      <h3>القيادة والتاريخ</h3>
-      <p>
-        تأسست فلاش أويل بشغف للتقدم، ونمت من مشغل إقليمي إلى مجموعة طاقة متعددة الجنسيات. بقيادة فريق من كبار القادة في الصناعة، تواصل الشركة الريادة في تطوير استكشاف وإنتاج الطاقة بكفاءة.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!------ الصناعات / القطاعات ------>
-<section class="campus">
-  <h1>الصناعات والقطاعات</h1>
-  <p>
-    تقدم فلاش أويل خدمات متعددة عبر مشهد الطاقة العالمي، مع تقديم خبرات متخصصة وحلول مصممة لتلبية احتياجات كل سوق.
-  </p>
-  <div class="row">
-    <div class="campus-col">
-      <img src="imgs/flame-2720980_640.jpg" />
-      <div class="layer">
-        <h3>النفط والغاز</h3>
+    <div class="row">
+      <div class="coures-col">
+        <h3>المهمة</h3>
+        <p>
+          تقديم موارد طاقة عالية الجودة تُغذي الصناعات والمجتمعات حول العالم، مع ضمان السلامة والكفاءة والمسؤولية
+          البيئية في كل ما نقوم به.
+        </p>
+      </div>
+      <div class="coures-col">
+        <h3>الرؤية</h3>
+        <p>
+          أن نكون رائدين عالميًا في ابتكار الطاقة — دمج التميز التقليدي في النفط والغاز مع التقنيات المتجددة لتشكيل
+          أنظمة الطاقة المستقبلية.
+        </p>
+      </div>
+      <div class="coures-col">
+        <h3>القيادة والتاريخ</h3>
+        <p>
+          تأسست فلاش أويل بشغف للتقدم، ونمت من مشغل إقليمي إلى مجموعة طاقة متعددة الجنسيات. بقيادة فريق من كبار القادة
+          في الصناعة، تواصل الشركة الريادة في تطوير استكشاف وإنتاج الطاقة بكفاءة.
+        </p>
       </div>
     </div>
-    <div class="campus-col">
-      <img src="imgs/istockphoto-493760870-612x612.jpg" width="100%" />
-      <div class="layer">
-        <h3>الطاقة المتجددة</h3>
+  </section>
+
+  <!------ الصناعات / القطاعات ------>
+  <section class="campus">
+    <h1>الصناعات والقطاعات</h1>
+    <p>
+      تقدم فلاش أويل خدمات متعددة عبر مشهد الطاقة العالمي، مع تقديم خبرات متخصصة وحلول مصممة لتلبية احتياجات كل سوق.
+    </p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="imgs/flame-2720980_640.jpg" />
+        <div class="layer">
+          <h3>النفط والغاز</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="imgs/istockphoto-493760870-612x612.jpg" width="100%" />
+        <div class="layer">
+          <h3>الطاقة المتجددة</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="imgs/mediabasso170400081.jpg" width="100%" />
+        <div class="layer">
+          <h3>الانتقال الطاقي</h3>
+        </div>
       </div>
     </div>
-    <div class="campus-col">
-      <img src="imgs/mediabasso170400081.jpg" width="100%" />
-      <div class="layer">
-        <h3>الانتقال الطاقي</h3>
+  </section>
+
+  <!-- ---- الحلول --------->
+  <section class="facilities">
+    <h1>الحلول</h1>
+    <p>
+      تعالج محفظتنا المتكاملة أكثر تحديات الطاقة تعقيدًا من خلال التكنولوجيا المتقدمة وفهم عميق للصناعة.
+    </p>
+    <p>المجالات الرئيسية تشمل:</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src=" imgs/mediabasso170400081.jpg" alt="" />
+        <h3>الاستكشاف البحري العميق</h3>
+        <p>
+          استخدام تكنولوجيا متقدمة في أعماق البحار لاستكشاف الطاقة في أعمق المياه في العالم.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="imgs/stock-photo-oil-extraction.webp" alt="" />
+        <h3>الصخور الزيتية وغير التقليدية</h3>
+        <p>
+          حلول استخراج ومعالجة مبتكرة لتعظيم كفاءة الموارد وتقليل الأثر البيئي.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="imgs/istockphoto-493760870-612x612.jpg" alt="" />
+        <h3>التقاط الكربون</h3>
+        <p>
+          تطوير أنظمة إدارة الكربون لدعم هدفنا طويل المدى للوصول إلى صافي انبعاثات صفرية.
+        </p>
       </div>
     </div>
+  </section>
+
+  <!--- المستثمرون ---->
+  <section class="gie">
+    <h1>الخدمات</h1>
+    <p>
+      الشفافية والثقة هي ركائز علاقة فلاش أويل مع مستثمرينا. ننشر بانتظام التقارير المالية والعروض التقديمية للمستثمرين
+      وتحديثات الحوكمة لضمان اطلاع أصحاب المصلحة وثقتهم في توجهنا الاستراتيجي.
+    </p>
+    <a href="services2_ar.html" class="hero-btn">اضغط هنا</a>
+  </section>
+
+  <!----- Footer ----->
+
+  <div style="text-align:center; color:var(--muted); margin-top:18px; font-size:13px">
+    © <span id="year"></span> 2025 فلاش أويل
+    استكشاف النفط والغاز • خدمات الطاقة • حلول هندسية
   </div>
-</section>
 
-<!-- ---- الحلول --------->
-<section class="facilities">
-  <h1>الحلول</h1>
-  <p>
-    تعالج محفظتنا المتكاملة أكثر تحديات الطاقة تعقيدًا من خلال التكنولوجيا المتقدمة وفهم عميق للصناعة.
-  </p>
-  <p>المجالات الرئيسية تشمل:</p>
-  <div class="row">
-    <div class="facilities-col">
-      <img src=" imgs/mediabasso170400081.jpg" alt="" />
-      <h3>الاستكشاف البحري العميق</h3>
-      <p>
-        استخدام تكنولوجيا متقدمة في أعماق البحار لاستكشاف الطاقة في أعمق المياه في العالم.
-      </p>
-    </div>
-    <div class="facilities-col">
-      <img src="imgs/stock-photo-oil-extraction.webp" alt="" />
-      <h3>الصخور الزيتية وغير التقليدية</h3>
-      <p>
-        حلول استخراج ومعالجة مبتكرة لتعظيم كفاءة الموارد وتقليل الأثر البيئي.
-      </p>
-    </div>
-    <div class="facilities-col">
-      <img src="imgs/istockphoto-493760870-612x612.jpg" alt="" />
-      <h3>التقاط الكربون</h3>
-      <p>
-        تطوير أنظمة إدارة الكربون لدعم هدفنا طويل المدى للوصول إلى صافي انبعاثات صفرية.
-      </p>
-    </div>
-  </div>
-</section>
+  <!------JavaScript for Toggle Menu------->
 
-<!--- المستثمرون ---->
-<section class="gie">
-  <h1>الخدمات</h1>
-  <p>
-    الشفافية والثقة هي ركائز علاقة فلاش أويل مع مستثمرينا. ننشر بانتظام التقارير المالية والعروض التقديمية للمستثمرين وتحديثات الحوكمة لضمان اطلاع أصحاب المصلحة وثقتهم في توجهنا الاستراتيجي.
-  </p>
-  <a href="services2_ar.html" class="hero-btn">اضغط هنا</a>
-</section>
+  <script>
+    var navLinks = document.getElementById("navlinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+    const year = document.getElementById('year');
+    year.textContent = new Date().getFullYear();
 
-<!----- Footer ----->
-
-<div style="text-align:center; color:var(--muted); margin-top:18px; font-size:13px">
-  © <span id="year"></span> 2025 فلاش أويل  
-  استكشاف النفط والغاز • خدمات الطاقة • حلول هندسية
-</div>
-
-<!------JavaScript for Toggle Menu------->
-
-<script>
-  var navlinks = document.getElementById("navlinks");
-  function showMenu() {
-    navlinks.style.right = "0px";
-  }
-  function hideMenu() {
-    navlinks.style.right = "-200px";
-  }
-
-  
-</script>
+  </script>
 
 </body>
+
 </html>
